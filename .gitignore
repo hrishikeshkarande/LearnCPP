@@ -1,0 +1,49 @@
+# Gitignore for C++ projects in VS Code with MSYS2/MinGW
+
+# Specific files to ignore
+Where GDB.txt
+
+# Compiled Object Files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.bin
+
+# Libraries (static and dynamic)
+*.lib
+*.a
+*.dll
+*.so
+
+# Precompiled Headers / Module Files
+*.gch
+*.pch
+
+# Debugging Symbols / Files
+*.dSYM/
+*.pdb
+*.suo
+
+# Temporary files
+*.tmp
+*.bak
+*~ # Editor backup files
+
+# Test Coverage files
+*.gcda
+*.gcno
+
+# VS Code specific files
+# DO NOT IGNORE: tasks.json, launch.json, c_cpp_properties.json
+# These are ESSENTIAL for replicating your build/debug setup in VS Code
+# for others (or yourself on another machine).
+.vscode/settings.json    # User-specific workspace settings (usually ignore)
+.vscode/extensions.json  # Recommended extensions for this workspace (optional to ignore)
+
+# Other IDE/Editor files (if applicable)
+.project
+.classpath
+.settings/
