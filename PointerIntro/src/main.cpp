@@ -47,5 +47,5 @@ int main() {
 This code demonstrates the use of pointers in C++. 
 It initializes an integer variable, creates a pointer to that variable, and shows how to manipulate the value through the pointer. 
 The code also prints out addresses and values at various stages to illustrate how pointers work in C++.
-This code is written in C++20 and uses standard input/output libraries.e
+This code is written in C++20 and uses standard input/output libraries.
 */
